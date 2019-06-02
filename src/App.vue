@@ -1,5 +1,6 @@
 <template>
-  <div></div>
+<!-- 根节点 -->
+  <router-view></router-view>
 </template>
 
 <script>
