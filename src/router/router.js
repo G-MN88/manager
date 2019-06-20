@@ -7,11 +7,15 @@ Vue.use(VueRouter)
 
 
 // 导入组件
+import index from '../components/index.vue'
 import login from '../components/login.vue'
 
 // 路由规则
 const routes = [
-    { path: '/', redirect: '/login' },
+    { path: '/', redirect: '/index' },
+
+    { path: '/index', component: index },
+
     { path: '/login', component: login },
     
   ]
